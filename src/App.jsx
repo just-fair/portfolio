@@ -14,8 +14,8 @@ function App() {
       <div className="terminal">
         <TerminalHeader />
         <HeroSection />
-        <ProjectsSection projects={projects} />
         <ExperienceSection experiences={experiences} />
+        <ProjectsSection projects={projects} />
         <FeedbackSection feedbacks={feedbacks} />
         <TerminalFooter />
       </div>

@@ -4,7 +4,13 @@ export const projects = [
     title: "FRONT",
     description:
       "A Hotel Management System simulation for HRM students to practice using real HMS software, preparing them for their future profession.",
-    technologies: ["React", "Django REST Framework", "PostgreSQL", "Brevo"],
+    technologies: [
+      "React",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Brevo",
+      "ReportLab",
+    ],
     image: "/images/front.png",
     demo: "https://front-bulsu.vercel.app",
     github: "https://github.com/just-fair",
@@ -21,19 +27,18 @@ export const projects = [
   },
   {
     id: 3,
-    title: "IRL Risk",
+    title: "Web2py to Py4web migration",
     description:
-      "A freelance project from Upwork. Live production website for risk management and compliance solutions. Please don't spam, its a live production website",
+      "A freelance project from Upwork. Please don't spam, its a live production website",
     technologies: ["Python", "py4web", "web2py", "HTML", "CSS", "JavaScript"],
     image: "/images/irl.png",
     demo: "https://irlrisk.ca/",
-    github: "https://github.com/just-fair",
   },
   {
     id: 4,
     title: "GPS",
     description:
-      "A Fleet Management System with real-time GPS tracking, built during my 3rd year in college.",
+      "A Fleet Management System with real-time GPS tracking, built during my 3rd year in college as requirement for System Analysis and Design subject.",
     technologies: ["React", "Django REST Framework", "Leaflet JS", "MUI"],
     image: "/images/gps.PNG",
     demo: "https://drive.google.com/drive/folders/1txTLyJan_H5CVize6EtrUogf-mC9h0oS?usp=drive_link",
@@ -44,10 +49,18 @@ export const projects = [
     title: "Intruder Detection",
     description:
       "An intrusion detection system that alerts users via call, SMS, and email. Features live streaming via Ngrok and records intruder footage.",
-    technologies: ["Flask", "Hugging Face", "HTML", "CSS", "JavaScript"],
+    technologies: [
+      "Flask",
+      "Hugging Face",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Twillo",
+      "Gmail SMTP",
+      "ngrok",
+    ],
     image: "/images/intruder.png",
     demo: "https://drive.google.com/drive/folders/1VwriPY27TG8VV5cpW3gC7V57bUvr4cOn?usp=sharing",
-    github: "https://github.com/just-fair",
   },
   {
     id: 6,
@@ -63,74 +76,63 @@ export const projects = [
     id: 7,
     title: "Torch",
     description: "A static website for a local church community.",
-    technologies: ["React", "CSS"],
+    technologies: ["React", "CSS", "Framer Motion"],
     image: "/images/torch.png",
     demo: "https://torchph.org/",
-    github: "https://github.com/just-fair",
-  },
-];
-
-export const feedbacks = [
-  {
-    id: 1,
-    client: "IRL Risk Team",
-    role: "Freelance Client",
-    project: "IRL Risk Website",
-    quote:
-      "Delivered production-ready updates fast and communicated clearly from start to launch.",
-    impact: "Shipped core pages and business content updates on schedule.",
-    proofUrl: "https://irlrisk.ca/",
-    cta: "Open Project",
-  },
-  {
-    id: 2,
-    client: "Hotel Management Instructors",
-    role: "Academic Stakeholders",
-    project: "FRONT HMS Simulator",
-    quote:
-      "The system made training easier for students through practical simulation workflows.",
-    impact: "Improved practice sessions with realistic booking and operations flows.",
-    proofUrl: "https://front-bulsu.vercel.app",
-    cta: "View Live Demo",
-  },
-  {
-    id: 3,
-    client: "Professional References",
-    role: "Network",
-    project: "General Collaboration",
-    quote:
-      "Reliable delivery, clean implementation, and strong ownership across project phases.",
-    impact: "Consistent project completion with direct communication.",
-    proofUrl: "https://linkedin.com/in/just-fair",
-    cta: "Open LinkedIn",
   },
 ];
 
 export const experiences = [
   {
     id: 1,
+    role: "Software Developer",
+    company: "Aphid Consulting - Odoo Silver Partner",
+    period: "June 2025 - Present",
+    summary:
+      "Worked on ERP customization, automation, and web application migration to support client business operations and improve system efficiency.",
+    highlights: [
+      "Developed and customized Odoo Enterprise modules using Python and XML to support client business workflows",
+      "Implemented process automation & business logic in the ERP to streamline operations and reduce repetitive tasks.",
+    ],
+  },
+  {
+    id: 2,
     role: "Freelance Full Stack Developer",
     company: "Independent / Upwork",
     period: "2023 - Present",
     summary:
       "Build and maintain client web applications, shipping frontend features and backend integrations.",
     highlights: [
-      "Delivered production updates for live business websites.",
       "Built APIs and admin workflows for operational tasks.",
       "Handled deployment, bug fixes, and iterative improvements.",
     ],
   },
+];
+
+export const feedbacks = [
+  {
+    id: 1,
+    client: "Reagan A.",
+    role: "Client",
+    project:
+      "AI Integration in Web Development – Real-Time Face Recognition & Video Surveillance",
+    quote:
+      "I would absolutely recommend Jasper! Initially I was hesitant because of lack of his lack projects on Upwork but I was pleasantly surprised. Communication was daily and he was very fast to adjust to any changes. He is also explained code thoroughly, which made me see he understands it...",
+    impact:
+      "Integrated AI face recognition model in web surveillance system - August, 2025",
+    proofUrl: "https://www.upwork.com/freelancers/~0177b335dcd8b8905a",
+    cta: "View Testimonial",
+  },
   {
     id: 2,
-    role: "Software Developer Intern",
-    company: "Academic and Client Projects",
-    period: "2022 - 2023",
-    summary:
-      "Worked on education-focused and operations-focused tools with React and Python ecosystems.",
-    highlights: [
-      "Built project modules for student simulation systems.",
-      "Collaborated with stakeholders to gather requirements.",
-      "Delivered demos and technical documentation for handoff.",
-    ],
+    client: "Shane D.",
+    role: "Client",
+    project: "Web2py to Py4web migration",
+    quote:
+      "We were very happy with Jaspher. Although he didn't have a lot of work experience, he approached our project with complete professionalism and competence. He learned the tools we used very quickly and did independent research on the best way to solve some of our problems...",
+    impact:
+      "Fully migrated the web application and successful deployment - July, 2025",
+    proofUrl: "https://www.upwork.com/freelancers/~0177b335dcd8b8905a",
+    cta: "View Testimonial",
   },
 ];

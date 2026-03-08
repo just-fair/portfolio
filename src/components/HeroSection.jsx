@@ -39,11 +39,11 @@ function HeroSection() {
         sequence={[
           "$ cat skills.txt",
           900,
-          "React, Django, PostgreSQL, APIs, Automation",
+          "React, Django, FastAPI, PostgreSQL, APIs, Automation, React Native",
           1400,
           "$ cat focus.txt",
           900,
-          "Building useful products with clear UX and reliable backend systems.",
+          "Focused on shipping reliable software, solving real problems, and getting meaningful results.",
           1400,
         ]}
         speed={50}

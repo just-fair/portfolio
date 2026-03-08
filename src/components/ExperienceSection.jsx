@@ -12,24 +12,29 @@ function ExperienceSection({ experiences }) {
             className="tree-item"
             style={{ animationDelay: `${index * 0.1}s` }}
           >
-            <div className="tree-node">
-              <span className="tree-branch">{index === experiences.length - 1 ? "└──" : "├──"}</span>
-              <div>
+            <div className="tree-rail" aria-hidden="true">
+              <span className="tree-branch">
+                {index === experiences.length - 1 ? "└──" : "├──"}
+              </span>
+              {index !== experiences.length - 1 && <span className="tree-line" />}
+            </div>
+            <article className="tree-card">
+              <div className="tree-node">
                 <p className="tree-title">{item.role}</p>
                 <p className="tree-company">
                   {item.company} <span>{item.period}</span>
                 </p>
               </div>
-            </div>
-            <p className="tree-summary">{item.summary}</p>
-            <ul className="tree-children">
-              {item.highlights.map((highlight) => (
-                <li key={highlight}>
-                  <span>•</span>
-                  {highlight}
-                </li>
-              ))}
-            </ul>
+              <p className="tree-summary">{item.summary}</p>
+              <ul className="tree-children">
+                {item.highlights.map((highlight) => (
+                  <li key={highlight}>
+                    <span>•</span>
+                    {highlight}
+                  </li>
+                ))}
+              </ul>
+            </article>
           </div>
         ))}
       </div>

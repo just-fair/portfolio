@@ -13,7 +13,7 @@ function FeedbackSection({ feedbacks }) {
           >
             <div className="feedback-head">
               <p className="meta">
-                {feedback.client} · {feedback.role}
+                {feedback.client} | {feedback.role}
               </p>
               <a href={feedback.proofUrl} target="_blank" rel="noreferrer">
                 {feedback.cta}

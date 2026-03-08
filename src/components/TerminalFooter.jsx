@@ -2,9 +2,15 @@ function TerminalFooter() {
   return (
     <footer className="terminal-footer">
       <p>
-        <span className="prompt">$</span> echo "Open to freelance and full stack roles"
+        <span className="prompt">$</span> echo "Open to freelance and software
+        development roles"
       </p>
-      <a href="mailto:jsphr.serquina@gmail.com">Contact Me</a>
+      <div className="terminal-footer-actions">
+        <a href="/Serquiña_Jaspher_CV.pdf" download>
+          Download CV
+        </a>
+        <a href="mailto:jsphr.serquina@gmail.com">Contact Me</a>
+      </div>
     </footer>
   );
 }
