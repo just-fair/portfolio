@@ -1,4 +1,7 @@
 body {
   margin: 0;
-  background: #fff;
+  font-family: "Segoe UI", "Inter", "Helvetica Neue", "Arial", sans-serif;
+  background: #111317;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

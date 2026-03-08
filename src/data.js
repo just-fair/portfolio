@@ -69,3 +69,68 @@ export const projects = [
     github: "https://github.com/just-fair",
   },
 ];
+
+export const feedbacks = [
+  {
+    id: 1,
+    client: "IRL Risk Team",
+    role: "Freelance Client",
+    project: "IRL Risk Website",
+    quote:
+      "Delivered production-ready updates fast and communicated clearly from start to launch.",
+    impact: "Shipped core pages and business content updates on schedule.",
+    proofUrl: "https://irlrisk.ca/",
+    cta: "Open Project",
+  },
+  {
+    id: 2,
+    client: "Hotel Management Instructors",
+    role: "Academic Stakeholders",
+    project: "FRONT HMS Simulator",
+    quote:
+      "The system made training easier for students through practical simulation workflows.",
+    impact: "Improved practice sessions with realistic booking and operations flows.",
+    proofUrl: "https://front-bulsu.vercel.app",
+    cta: "View Live Demo",
+  },
+  {
+    id: 3,
+    client: "Professional References",
+    role: "Network",
+    project: "General Collaboration",
+    quote:
+      "Reliable delivery, clean implementation, and strong ownership across project phases.",
+    impact: "Consistent project completion with direct communication.",
+    proofUrl: "https://linkedin.com/in/just-fair",
+    cta: "Open LinkedIn",
+  },
+];
+
+export const experiences = [
+  {
+    id: 1,
+    role: "Freelance Full Stack Developer",
+    company: "Independent / Upwork",
+    period: "2023 - Present",
+    summary:
+      "Build and maintain client web applications, shipping frontend features and backend integrations.",
+    highlights: [
+      "Delivered production updates for live business websites.",
+      "Built APIs and admin workflows for operational tasks.",
+      "Handled deployment, bug fixes, and iterative improvements.",
+    ],
+  },
+  {
+    id: 2,
+    role: "Software Developer Intern",
+    company: "Academic and Client Projects",
+    period: "2022 - 2023",
+    summary:
+      "Worked on education-focused and operations-focused tools with React and Python ecosystems.",
+    highlights: [
+      "Built project modules for student simulation systems.",
+      "Collaborated with stakeholders to gather requirements.",
+      "Delivered demos and technical documentation for handoff.",
+    ],
+  },
+];
