@@ -6,7 +6,7 @@ function TerminalFooter() {
         development roles"
       </p>
       <div className="terminal-footer-actions">
-        <a href="/Serquiña_Jaspher_CV.pdf" download>
+        <a href="/Serquiña_Jaspher.pdf" download>
           Download CV
         </a>
         <a href="mailto:jsphr.serquina@gmail.com">Contact Me</a>

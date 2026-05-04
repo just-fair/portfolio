@@ -22,7 +22,11 @@ function ExperienceSection({ experiences }) {
               <div className="tree-node">
                 <p className="tree-title">{item.role}</p>
                 <p className="tree-company">
-                  {item.company} <span>{item.period}</span>
+                  {item.period.includes("Present") && (
+                    <span className="status-dot" title="Currently active" />
+                  )}
+                  <span className="company-name">{item.company}</span>{" "}
+                  <span className="period">{item.period}</span>
                 </p>
               </div>
               <p className="tree-summary">{item.summary}</p>

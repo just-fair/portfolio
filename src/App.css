@@ -387,12 +387,36 @@ h2 {
 
 .tree-company {
   margin: 0.16rem 0 0;
-  color: #9fb0c6;
   font-size: 0.76rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
 }
 
-.tree-company span {
-  color: #8094af;
+.company-name {
+  color: var(--accent);
+}
+
+.period {
+  color: #4ecb8a;
+  opacity: 0.75;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  box-shadow: 0 0 5px var(--accent), 0 0 10px var(--accent);
+  flex-shrink: 0;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; box-shadow: 0 0 5px var(--accent), 0 0 10px var(--accent); }
+  50% { opacity: 0.4; box-shadow: 0 0 2px var(--accent); }
 }
 
 .tree-summary {
